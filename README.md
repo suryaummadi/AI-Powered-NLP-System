@@ -104,8 +104,6 @@ The main libraries used include:
 * datasets
 * huggingface-hub
 
-(Add any other libraries your code depends on here.)
-
 ---
 
 ## Project Structure
