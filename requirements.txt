@@ -1,0 +1,11 @@
+streamlit
+transformers
+tensorflow
+google-generativeai
+astor
+numpy
+pandas
+scikit-learn
+torch
+datasets
+huggingface-hub
