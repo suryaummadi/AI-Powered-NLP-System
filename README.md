@@ -1,62 +1,33 @@
-# Sure! Here’s the \*\*fully formatted, clean README.md content\*\* ready for you to copy and paste as is:
 
-# 
+---
 
-# ````markdown
+# AI-Powered Multi-Task NLP System for Product Review Intelligence
 
-# \# AI-Powered Multi-Task NLP System for Product Review Intelligence
+This repository contains four modules implementing key NLP tasks to analyze product reviews, along with a Streamlit web app for real-time review analysis:
 
-# 
+1. **Review Summarization**  
+2. **Customer Experience Analytics**  
+3. **Pros and Cons Extraction**  
+4. **Quality Scoring**
 
-# This repository contains four modules implementing key NLP tasks to analyze product reviews, along with a Streamlit web app for real-time review analysis:
+Each module is provided as a Jupyter notebook (.ipynb) with code, explanations, and example outputs.
 
-# 
+---
 
-# 1\. \*\*Review Summarization\*\*  
+## Project Overview
 
-# 2\. \*\*Customer Experience Analytics\*\*  
+This system leverages advanced NLP models like FLAN-T5, Gemini 2.5 Flash API, and RoBERTa — all available via Hugging Face — to extract structured insights from customer reviews. It aims to provide:
 
-# 3\. \*\*Pros and Cons Extraction\*\*  
+- Concise summaries of lengthy reviews  
+- Analytics on customer experiences  
+- Identification of pros and cons  
+- Quality scoring based on review content
 
-# 4\. \*\*Quality Scoring\*\*
+The notebooks include preprocessing, model inference, and post-processing pipelines for each task.
 
-# 
+Additionally, the project includes a **Streamlit web app** (`app.py`) that provides an interactive interface for users to input reviews and view structured insights across all NLP components in real-time.
 
-# Each module is provided as a Jupyter notebook (.ipynb) with code, explanations, and example outputs.
-
-# 
-
-# ---
-
-# 
-
-# \## Project Overview
-
-# 
-
-# This system leverages advanced NLP models like FLAN-T5, Gemini 2.5 Flash API, and RoBERTa — all available via Hugging Face — to extract structured insights from customer reviews. It aims to provide:
-
-# 
-
-# \- Concise summaries of lengthy reviews  
-
-# \- Analytics on customer experiences  
-
-# \- Identification of pros and cons  
-
-# \- Quality scoring based on review content
-
-# 
-
-# The notebooks include preprocessing, model inference, and post-processing pipelines for each task.
-
-# 
-
-# Additionally, the project includes a \*\*Streamlit web app\*\* (`app.py`) that provides an interactive interface for users to input reviews and view structured insights across all NLP components in real-time.
-
-# 
-
-# ---
+---
 
 ## Datasets
 
@@ -75,184 +46,87 @@ All data loading, cleaning, and preprocessing steps are implemented within the n
 
 ---
 
+## Getting Started
 
-# \## Getting Started
+### Prerequisites
 
-# 
+- Python 3.10.6  
+- Jupyter Notebook or JupyterLab  
 
-# \### Prerequisites
+### Installation
 
-# 
+1. Clone this repository:
 
-# \- Python 3.10.6  
+```bash
+git clone https://github.com/suryaummadi/AI-Powered-NLP-System.git
+cd AI-Powered-NLP-System
 
-# \- Jupyter Notebook or JupyterLab  
 
-# 
+2. Install required Python packages:
 
-# \### Installation
+```bash
+pip install -r requirements.txt
+```
 
-# 
+---
 
-# 1\. Clone this repository:
+## Running the Notebooks
 
-# 
+Launch Jupyter Notebook or JupyterLab:
 
-# ```bash
+```bash
+jupyter notebook
+```
 
-# git clone https://github.com/suryaummadi/AI-Powered-NLP-System.git
+Open any of the four notebooks and run the cells sequentially.
 
-# cd AI-Powered-NLP-System
+---
 
-# ````
+## Running the Streamlit Web App
 
-# 
+Run the interactive web app with:
 
-# 2\. Install required Python packages:
+```bash
+streamlit run app.py
+```
 
-# 
+---
 
-# ```bash
+## Dependencies
 
-# pip install -r requirements.txt
+The main libraries used include:
 
-# ```
+* transformers
+* streamlit
+* pandas
+* scikit-learn
+* numpy
+* tensorflow
+* datasets
+* huggingface-hub
 
-# 
+---
 
-# ---
+## Project Structure
 
-# 
+```
+AI-Powered-NLP-System/
+│
+├── Review_Summarization.ipynb  
+├── Customer_Experience_Analytics.ipynb  
+├── Pros_Cons_Extraction.ipynb  
+├── Quality_Scoring.ipynb  
+├── app.py                 # Streamlit web app  
+├── README.md  
+├── requirements.txt  
+└── (other supporting files/folders)
+```
 
-# \## Running the Notebooks
+---
 
-# 
+## Author
 
-# Launch Jupyter Notebook or JupyterLab:
-
-# 
-
-# ```bash
-
-# jupyter notebook
-
-# ```
-
-# 
-
-# Open any of the four notebooks and run the cells sequentially.
-
-# 
-
-# ---
-
-# 
-
-# \## Running the Streamlit Web App
-
-# 
-
-# Run the interactive web app with:
-
-# 
-
-# ```bash
-
-# streamlit run app.py
-
-# ```
-
-# 
-
-# ---
-
-# 
-
-# \## Dependencies
-
-# 
-
-# The main libraries used include:
-
-# 
-
-# \* transformers
-
-# \* streamlit
-
-# \* pandas
-
-# \* scikit-learn
-
-# \* numpy
-
-# \* tensorflow
-
-# \* datasets
-
-# \* huggingface-hub
-
-
-
-# 
-
-# (Add any other libraries your code depends on here.)
-
-# 
-
-# ---
-
-# 
-
-# \## Project Structure
-
-# 
-
-# ```
-
-# AI-Powered-NLP-System/
-
-# │
-
-# ├── Review\_Summarization.ipynb  
-
-# ├── Customer\_Experience\_Analytics.ipynb  
-
-# ├── Pros\_Cons\_Extraction.ipynb  
-
-# ├── Quality\_Scoring.ipynb  
-
-# ├── app.py                 # Streamlit web app  
-
-# ├── README.md  
-
-# ├── requirements.txt  
-
-# └── (other supporting files/folders)
-
-# ```
-
-# 
-
-# ---
-
-# 
-
-# \## Author
-
-# 
-
-# Surya Venkata Sekhar Ummadi
-
-# \[Your GitHub Profile](https://github.com/suryaummadi)
-
-# 
-
-# ---
-
-# 
-
-# ```
-
+Surya Venkata Sekhar Ummadi  
+[GitHub Profile](https://github.com/suryaummadi)
 
 
