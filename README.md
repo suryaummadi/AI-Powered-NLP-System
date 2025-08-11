@@ -1,4 +1,4 @@
-```markdown
+
 ---
 
 # AI-Powered Multi-Task NLP System for Product Review Intelligence
@@ -60,7 +60,7 @@ All data loading, cleaning, and preprocessing steps are implemented within the n
 ```bash
 git clone https://github.com/suryaummadi/AI-Powered-NLP-System.git
 cd AI-Powered-NLP-System
-````
+
 
 2. Install required Python packages:
 
@@ -126,7 +126,7 @@ AI-Powered-NLP-System/
 
 ## Author
 
-Surya Venkata Sekhar Ummadi
+Surya Venkata Sekhar Ummadi  
 [GitHub Profile](https://github.com/suryaummadi)
 
 
