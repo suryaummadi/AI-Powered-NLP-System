@@ -127,6 +127,8 @@ AI-Powered-NLP-System/
 ## Author
 
 Surya Venkata Sekhar Ummadi  
+[LinkedIn](https://www.linkedin.com/in/surya-ummadi)     
+[Portfolio](https://suryaummadi.github.io/)  
 [GitHub Profile](https://github.com/suryaummadi)
 
 
